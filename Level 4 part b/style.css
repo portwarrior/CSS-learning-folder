@@ -1,16 +1,33 @@
 .navbar{
     display: flex;
     flex: auto;
-    background-color: pink;
+    background-color: black;
     justify-content: space-evenly;
+    border-radius: 3%;
 }
 a{
+    font-weight: bolder;
     font-size: larger;
     text-decoration: none;
-    background-color: burlywood;
+    color: beige;
 }
 
 li{
     list-style-type: none;
     align-content: space-evenly;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: coral;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+/* if you wanna center content along main axis then use justify content in the container box and then when u wanna center a div vertically aka along the cross axis then use align items */
+.inner{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 100px;
 }

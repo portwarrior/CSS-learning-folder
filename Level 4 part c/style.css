@@ -1,0 +1,28 @@
+div{
+    height: 900px;
+    width: 700px;
+    background-color: pink;
+}
+
+@media (min-height:600px){
+    div{
+        background-color: red;
+    }
+}
+
+@media (max-height:500px){
+    div{
+        background-color: green;
+    }
+    
+}
+
+@media(min-width: 200px) and (max-width:300px){
+    div{
+        background-color: blue;
+    }
+}
+
+/* 
+here when we use min height then the value given is considered as the minmum width after which there would be a change in the div and where the max-height is written then it means that given value is the last spot till the change will occur. We can ad dmore changes to it although i have only added background color change. we can also create a range as depicted in the 3rd syntax
+*/
