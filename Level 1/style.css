@@ -1,0 +1,83 @@
+h1{
+    color:red;
+}
+
+p{
+    color:black;
+}
+
+button{
+    color: blue;
+    background-color: burlywood;
+}
+
+body{
+    background-color: black;
+}  
+
+*{
+    color: pink;
+}
+/* this is a universal selector which is applied by using * */
+
+h1{
+    color: blue;
+}
+/* this is an element selector that is applied on particular elements */
+
+#heading1{
+    color: green;
+}
+/* this is an id selector */
+
+.classed{
+    color:blueviolet;
+}
+/* this is a class selector */
+
+#box{
+    background-color: azure;
+}
+
+.heading{
+    color: red;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#this{
+    color: azure;
+    background-color: chocolate;
+}
+
+#textaligner{
+    text-align: center;
+    color: aquamarine;
+}
+
+#paragraphpix{
+    font-size: 16px;
+    color: white;
+    line-height: 20;
+    text-transform: uppercase;
+}
+
+#paragrapix{
+    font-size: 100px;
+    color: white;
+    text-transform: lowercase;
+}
+
+#practiseset2{
+    text-align: center;
+    text-transform: capitalize;
+    color: brown;
+}
+
+.outer{
+    font-size: 25px;
+}
+
+.inner{
+    font-size: 10px;
+}

@@ -1,0 +1,48 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+}
+
+#box2{
+    height: 50px;
+    width: 100%;
+    background-color: cadetblue; 
+    margin-left: 10% ;
+} 
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    padding-left: 50px;
+    border: 5px solid gray;
+    display: inline-block;
+}
+
+#boxx{
+    position: static;
+    z-index: 0;
+}
+
+#boxx2{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 5;
+}
+
+#boxx3{
+    position: absolute;
+    top: 510px;
+    z-index: 2;
+}
+
+#boxx4{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 2;
+}

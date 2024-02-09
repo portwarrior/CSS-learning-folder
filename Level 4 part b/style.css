@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    flex: auto;
+    background-color: pink;
+    justify-content: space-evenly;
+}
+a{
+    font-size: larger;
+    text-decoration: none;
+    background-color: burlywood;
+}
+
+li{
+    list-style-type: none;
+    align-content: space-evenly;
+}
