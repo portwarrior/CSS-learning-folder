@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.flexbox{
+    height: 645px;
+    display: flex;
+    border: 12px solid white;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid antiquewhite;
+    border-top: 10px solid blue;
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+    0%{transform:rotate(0deg)}
+    100%{transform:rotate(360deg)}
+}
