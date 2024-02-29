@@ -16,7 +16,7 @@ body{
     border: 10px solid antiquewhite;
     border-top: 10px solid blue;
     animation-name: loader;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
